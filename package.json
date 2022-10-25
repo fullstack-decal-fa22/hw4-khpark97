@@ -1,6 +1,7 @@
 {
   "name": "blockstagram",
   "version": "0.1.0",
+  "homepage": "https://fullstack-decal-fa22.github.io/hw4-khpark97",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -11,7 +12,6 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://khpark97.github.io/fullstack-decal-fa22/hw4-khpark97",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
