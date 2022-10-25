@@ -12,7 +12,7 @@ const Feed = () => {
 
     return (
         <div>
-            <Menu handleClick={() => updatePosts([color, ...posts])}></Menu>
+            <Menu handleClick={(color) => updatePosts([color, ...posts])}></Menu>
 
             {/* Below is where all of your Blocks should render! */}
             {posts.map((color) => ( <Block color={color}/> ))}
